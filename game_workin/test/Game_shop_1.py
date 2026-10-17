@@ -20,7 +20,7 @@ def buy_item(shop_index):
             else:
                 print("=" * 70)
                 print("Please choose a valid option (Y/N)".center(70))
-                shop_purchase = msvcrt.getwch().lower()
+                other_purchase = msvcrt.getwch().lower()
                 print("=" * 70)
         if other_purchase == "y":
             the_shop()
