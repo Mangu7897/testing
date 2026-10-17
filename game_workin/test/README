@@ -1,0 +1,12 @@
+This is a terminal game!
+its still under development.
+
+For this to work you HAVE to have python installed on your computer!
+
+(WINDOWS) 
+1. launch the game by double cliking the play game.bat file (in the test folder)
+2. You can also open the folder in an editor such as VS Code or PyCharm and run Game_test.05.py
+
+(LINUX) 
+if you are on Linux it will not work, because i used (msvcrt) which takes windows-only-keyboard inputs.
+(if you really want it to work on linux just replace msvcrt.getwch() with input() and fix the logic, if you do this use method 2)
